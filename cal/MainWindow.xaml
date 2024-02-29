@@ -1,0 +1,28 @@
+﻿<Window x:Class="cal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,8,0,-8">
+        <Button Content="1" HorizontalAlignment="Left" Margin="243,156,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="20" Height="20" AutomationProperties.Name="button1" RenderTransformOrigin="1.65,0.635"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="271,156,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="button2" Click="Button_Click_1"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="298,156,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="button3" Click="Button_Click_1"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="243,184,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="20" Height="20" AutomationProperties.Name="button4" RenderTransformOrigin="1.45,-0.048"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="271,184,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="button5" RenderTransformOrigin="0.55,-0.248" Click="Button_Click_1"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="298,184,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="button6" RenderTransformOrigin="-0.4,0.202" Click="Button_Click_1"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="243,212,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="20" Height="20" AutomationProperties.Name="button7"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="271,212,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="button8" RenderTransformOrigin="-0.45,0.635" Click="Button_Click_1"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="298,212,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="button9" Click="Button_Click_1"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="326,212,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="buttonMinus" RenderTransformOrigin="0.575,0.927" Click="Button_Click_1"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="326,184,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="buttonMultiply" Click="Button_Click_1"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="326,156,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="buttonDivision" Click="Button_Click_1"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="326,240,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="buttonPlus" Click="Button_Click_1"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="298,240,0,0" VerticalAlignment="Top" Width="20" Height="20" AutomationProperties.Name="buttonEquals" Click="Button_Click"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="243,240,0,0" VerticalAlignment="Top" Width="48" Height="20" AutomationProperties.Name="button0" Click="Button_Click_1"/>
+        <TextBox x:Name="text" HorizontalAlignment="Left" Margin="243,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+
+    </Grid>
+</Window>
